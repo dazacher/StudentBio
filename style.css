@@ -1,0 +1,14 @@
+body{
+    background-image: url('https://cdn131.picsart.com/320509950079201.jpg?type=webp&to=min&r=640');
+     /*background-repeat: no-repeat; background-size: cover; background-position: center center;*/
+}
+
+.navbar{
+    background-color: blueviolet;   
+}
+
+.card{
+    background-color: blueviolet;
+    text-align: bottom;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
