@@ -16,9 +16,12 @@ body{
 /* .navbar-nav{
     color: white;
 } */
-.navbar-dark .navbar-toggler-icon {
+/* .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
+} */
+.navbar-light button.navbar-toggler.collapsed span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(108, 99, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 
 /* .navbar-toggler{
     align-content: left;
@@ -28,13 +31,24 @@ body{
 }
 
 .navbar-brand{
+    padding-left: 25px;
+    padding-right: 25px;
     width:"300px";
     color:white;
     font-weight: bold;
     font-size: xx-large;
     background-color: blueviolet;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Noto Serif', serif;
 }
 div{
     color: white;
 }
+
+#formGroupExampleInput3{
+    height:300px;
+    text-align: initial;
+}
+/* .contact{
+    padding-left:50px;
+    padding-right:50px;
+} */
